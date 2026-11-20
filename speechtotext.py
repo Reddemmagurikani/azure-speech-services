@@ -14,7 +14,8 @@ speech_key_input = getpass.getpass("Enter your NEW Azure Speech Key: ")
 if not speech_key_input.strip():
     raise ValueError("Azure Speech Key is missing.")
 
-endpoint_url = "https://24691a32l1-2873-resource.cognitiveservices.azure.com/"
+endpoint_url = "end
+_point"
 
 with open("/content/.env", "w") as env_file:
     env_file.write("AZURE_SPEECH_KEY=" + speech_key_input.strip() + "\n")
