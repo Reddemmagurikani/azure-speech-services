@@ -4,7 +4,7 @@ For more samples please visit https://github.com/Azure-Samples/cognitive-service
 
 import azure.cognitiveservices.speech as speechsdk
 
-endpoint_url = "https://24691a32l1-2873-resource.cognitiveservices.azure.com/"
+endpoint_url = "end_point"
 
 from urllib.parse import urlparse
 
